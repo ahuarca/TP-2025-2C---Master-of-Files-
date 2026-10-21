@@ -1,0 +1,126 @@
+//PRUEBA 1.1
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "run",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba1/prueba1.config"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": {
+//         "MIMode": "gdb"
+//       },
+//       "osx": {
+//         "MIMode": "lldb"
+//       },
+//       "setupCommands": [
+//         {
+//           "text": "-enable-pretty-printing",
+//           "ignoreFailures": true
+//         }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+// PRUEBA 1.2
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "run",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba1/prueba2.config"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": {
+//         "MIMode": "gdb"
+//       },
+//       "osx": {
+//         "MIMode": "lldb"
+//       },
+//       "setupCommands": [
+//         {
+//           "text": "-enable-pretty-printing",
+//           "ignoreFailures": true
+//         }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+// // PRUEBA 2.1 y 2.2
+
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "run",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba3/prueba1.config"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": {
+//         "MIMode": "gdb"
+//       },
+//       "osx": {
+//         "MIMode": "lldb"
+//       },
+//       "setupCommands": [
+//         {
+//           "text": "-enable-pretty-printing",
+//           "ignoreFailures": true
+//         }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+// PRUEBA 4
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "run",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+      "args": ["prueba4/prueba1.config"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "linux": {
+        "MIMode": "gdb"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      },
+      "setupCommands": [
+        {
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build"
+    }
+  ]
+}
+

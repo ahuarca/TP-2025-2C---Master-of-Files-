@@ -1,0 +1,132 @@
+//PRUEBA 1.1 = PRUEBA 1.2
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Worker 1",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba1/worker1.config", "1"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": { "MIMode": "gdb" },
+//       "setupCommands": [
+//         { "text": "-enable-pretty-printing", "ignoreFailures": true }
+//       ],
+//       "preLaunchTask": "build"
+//     },
+//     {
+//       "name": "Worker 2",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba1/worker2.config", "2"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": { "MIMode": "gdb" },
+//       "setupCommands": [
+//         { "text": "-enable-pretty-printing", "ignoreFailures": true }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+// PRUEBA 2.1
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Worker 1",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba2/worker1.config", "1"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": { "MIMode": "gdb" },
+//       "setupCommands": [
+//         { "text": "-enable-pretty-printing", "ignoreFailures": true }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+// PRUEBA 2.2
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Worker 1",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba2/worker2.config", "1"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": { "MIMode": "gdb" },
+//       "setupCommands": [
+//         { "text": "-enable-pretty-printing", "ignoreFailures": true }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+//prueba 3
+
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Worker 1",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+//       "args": ["prueba3/worker1.config", "1"],
+//       "stopAtEntry": false,
+//       "cwd": "${workspaceFolder}",
+//       "environment": [],
+//       "externalConsole": false,
+//       "linux": { "MIMode": "gdb" },
+//       "setupCommands": [
+//         { "text": "-enable-pretty-printing", "ignoreFailures": true }
+//       ],
+//       "preLaunchTask": "build"
+//     }
+//   ]
+// }
+
+//prueba 4
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Worker 1",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/${workspaceFolderBasename}",
+      "args": ["prueba4/worker1.config", "1"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "linux": { "MIMode": "gdb" },
+      "setupCommands": [
+        { "text": "-enable-pretty-printing", "ignoreFailures": true }
+      ],
+      "preLaunchTask": "build"
+    }
+  ]
+}
